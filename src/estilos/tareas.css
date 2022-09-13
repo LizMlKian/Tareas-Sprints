@@ -1,0 +1,32 @@
+.contenedor-tareas{
+    width: 700px;
+    min-height: 65px;
+    background-color: rgb(193, 226, 102, 0.918);
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.texto-tarea {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    overflow-wrap: anywhere;
+}
+
+.icono{ 
+    width: 25px;
+    height: 25px;
+    margin: 5px
+}
+
+
+.contenedor-tareas.completada{
+    background-color: rgba(71, 70, 70);
+    text-decoration: line-through;
+}
